@@ -1,0 +1,214 @@
+.clear {
+	clear: both;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+img {
+	border: none;
+}
+
+a, a:visited, a:focus, a:active {
+	text-decoration: none;
+	color: #7BB809;
+}
+
+a:hover {
+	color: #005DA8;
+}
+
+#maps-search {
+	width: 100%;
+	height: 430px;
+}
+
+.mercedesBenzFormHolder {
+	background: url('../images/mercedes-benz-form-bg.jpg') no-repeat left top transparent;
+	height: 216px;
+	width: 400px;
+	position: relative;
+	margin: 43px 0 51px 7px;
+}
+
+.mercedesBenzFormHolder input#postal_code {
+	position: absolute;
+	top: 184px;
+	left: 131px;
+	width: 106px;
+	border: none;
+	font-size: 15px;
+	padding: 3px 3px 3px 3px;
+}
+
+.mercedesBenzFormHolder #redirectToMercedesBenzForm {
+	position: absolute;
+	top: 183px;
+	left: 281px;
+	width: 111px;
+	height: 25px;
+	border: none;	
+	opacity: 0;
+	cursor: pointer;
+}
+
+#map_canvas {
+	width: 528px;
+	height: 418px;
+	float: left;
+	border: 6px solid #fff;
+}
+
+.address-search-form {
+	width: 409px;
+	margin: 10px 0 10px 10px;	
+	float: left;
+}
+
+.address-search-form .imageHolder {
+	padding: 22px 0 16px 89px;
+	height: 260px;
+}
+
+.address-search-form fieldset {
+	border: none;
+	width: 321px;
+	float: left;
+	padding: 4px 7px 14px 5px;
+	
+}
+
+.address-search-form  div#Address {
+}
+
+.address-search-form label {
+	font-weight: bold;
+	font-size: 12px;
+	display: block;
+	margin-bottom: 3px;
+}
+
+.address-search-form input[type="text"] {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#Address input {
+	width: 314px;
+}
+
+.address-search-form  div.Actions {
+	width: 70px;
+	margin: 0 auto;
+	float: left;
+}
+
+
+.address-search-form div.Actions input[type=submit] {
+	width: 70px;
+	height: 20px;
+	padding: 3px 3px 19px 3px;
+	margin: 25px auto 0 auto;
+	border: none;
+	background: #7BB32E;
+	color: #fff;
+	cursor: pointer;
+}
+
+.address-search-form .workextrakt img {	
+	float: left;
+	margin: 0 10px 0 9px;
+}
+
+.address-search-form .info {
+	display: block;
+	float: left;
+	padding: 4px 0 0 0;
+	width: 338px;
+}
+
+#searchextended {
+	min-height: 50px;
+	padding: 39px 0 0 0;
+}
+
+div#Perimeter {
+	width: 160px;
+}
+
+div#Perimeter select  {
+	width: 150px;
+}
+
+/* Info Box */
+#map_canvas .infoboxContent {
+	font-size: 14px;
+}
+
+.infoboxContent hr {	
+	background-color: #CFCFCF;
+	border: none;
+	height: 1px;
+}
+
+.infoboxContent .title, .resultsViewHolder .title {	
+	font-weight: bold;
+	color: #005DA8;
+}
+
+.infoboxContent .calculateroute a {
+	color: #1155CC !important;
+	font-size: 13px;
+}
+
+.infoboxContent .calculateroute a:hover {
+	color: #003156;
+	text-decoration: underline;
+}
+
+.infoboxContent div {
+	margin-top: 10px;
+}
+
+.address-search-form .resultsViewHolder {
+	height: 291px;
+	width: 398px;
+	clear: left;
+	overflow: auto;		
+	-moz-box-shadow:    1px 0 4px 3px #ccc;
+	-webkit-box-shadow: 1px 0 4px 3px #ccc;
+	box-shadow:         1px 0 4px 3px #ccc; 
+	padding: 1px 0 7px 0;
+	margin: 0 0 0 9px;
+}
+	.address-search-form .resultsViewHolder .resultItem {
+		padding: 4px 0 4px 9px;
+		/*border-bottom: 1px solid #ABABAB;*/
+		cursor: pointer;		
+		min-height: 90px;	
+	}
+	
+	.address-search-form .resultsViewHolder .even {
+		background-color: #EFEFEF;	
+	}
+	
+	.address-search-form .resultsViewHolder .resultItem .leftSide {
+		width: 100px;
+		float: left;
+		clear: left;
+	}
+	.address-search-form .resultsViewHolder .resultItem .rightSide {		
+		float: left;
+		width: 271px;
+	}
+	
+	.resultsViewHolder .title {
+		display: block;
+	}

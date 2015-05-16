@@ -1,0 +1,3 @@
+Uri: http://www.contra-sept.de/mysite/javascript/libs/jquery.min.js
+File Name: C:\Users\Greg\Documents\copywebsite\www.contra-sept.de\mysite\javascript\libs\jquery.js
+Content Type: application/javascript
